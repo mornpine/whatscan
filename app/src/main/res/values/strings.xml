@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">WhatsScan</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+
+    <string name="closing_app">Closing App</string>
+    <string name="ask_app">Are you sure you want to close this app ?</string>
+    <string name="rate_app">Rate App</string>
+    <string name="exit_app">Exit</string>
+    <string name="no_app">No</string>
+    <string name="yes_app">Yes</string>
+
+    <string name="Fyber_button">Earn Points</string>
+    <string name="Remove_ads">Remove Ads</string>
+    <string name="AdUnitId">ca-app-pub-3495542477987820/6087057797</string>
+</resources>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+          android:background="#cecccd"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:background="#cecccd"
+        android:gravity="center_horizontal"
+        android:paddingTop="10dp"
+        android:text="يبدوا أنك تستخدم التطبيق لأول مرة المرجوا تقييم التطبيق 5 نجوم حتى يعمل معك التطبيق بشكل صحيح"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textStyle="bold" />
+  <View
+    
+        android:layout_width="wrap_content"
+        android:layout_height="5dp"
+  />
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/stars" />
+  <View
+    
+        android:layout_width="wrap_content"
+        android:layout_height="15dp"
+  />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal" >
+
+        <Button
+            android:id="@+id/no"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_weight="0.5"
+            android:background="#afafaf"
+            android:text="لا"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/yes"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:background="#929e94"
+              android:layout_weight="0.5"
+            android:text="نعم"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+</LinearLayout>

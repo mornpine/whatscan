@@ -1,0 +1,24 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:bwq="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/menu_share"
+        android:icon="@drawable/shares"
+        android:orderInCategory="100"
+        android:showAsAction="always"
+        android:title="Share" />
+    <item
+        android:id="@+id/rating"
+        android:icon="@drawable/star"
+        android:orderInCategory="2"
+        android:showAsAction="always"
+        android:title="Rating" />
+    <item
+        android:id="@+id/remove_ads"
+        android:icon="@drawable/ic_remove_ads"
+        android:orderInCategory="1"
+        android:showAsAction="always"
+        android:title="Rating">
+
+    </item>
+</menu>

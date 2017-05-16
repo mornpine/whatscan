@@ -1,0 +1,46 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 23
+    buildToolsVersion '23.0.3'
+
+    defaultConfig {
+        applicationId "com.jeroabd.whatsscan"
+        minSdkVersion 9
+        targetSdkVersion 22
+        multiDexEnabled true
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.txt'
+        }
+    }
+
+    dexOptions {
+        javaMaxHeapSize "2g"
+    }
+}
+
+dependencies {
+    compile 'com.android.support:support-v4:20.0.0'
+    compile 'com.android.support:appcompat-v7:18.0.0'
+    compile 'com.google.android.gms:play-services:9.8.0'
+    compile 'com.google.android.gms:play-services-ads:9.8.0'
+    compile 'com.google.android.gms:play-services-gcm:9.8.0'
+    compile 'com.google.android.gms:play-services-location:9.8.0'
+    compile 'com.android.support:multidex:1.0.1'
+    compile 'com.loopj.android:android-async-http:1.4.9'
+    compile 'com.fyber:fyber-sdk:8.12.0'
+    compile project(':cheetah-mobile-3.4.7')
+    compile files('libs/android-support-v7-recyclerview-23.1.1.jar')
+    compile files('libs/applovin-6.3.0.jar')
+    compile files('libs/appodeal-1.15.9.jar')
+    compile files('libs/chartboost-6.6.1.jar')
+    compile files('libs/flurry-analytics-6.5.0.jar')
+    compile files('libs/my-target-4.5.10.jar')
+    compile files('libs/tapjoyconnectlibrary.jar')
+    compile files('libs/unity-ads-2.0.4.jar')
+    compile files('libs/yandex-metrica-2.62.jar')
+}
